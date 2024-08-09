@@ -1,0 +1,169 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+}
+
+code {
+  font-family: 'Courier New', Courier, monospace;
+}
+
+input {
+  padding: 12px;
+  font-size: 1.1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  border: none;
+  padding: 12px;
+  background: #007bff;
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: bold;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.register {
+  padding: 30px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.chat-box {
+  display: flex;
+  flex-direction: row;
+  height: 80%;
+  width: 80%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background: #fff;
+  border-radius: 8px;
+}
+
+.member-list {
+  width: 25%;
+  border-right: 2px solid #e1e1e1;
+  background: #f7f7f7;
+  padding: 20px;
+}
+
+.member-list h1 {
+  font-size: 2em;
+  margin-bottom: 10px;
+  color: #007bff;
+}
+
+.member-list p {
+  font-size: 1em;
+  color: #666;
+}
+
+.chat-content {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+}
+
+.chat-messages {
+  flex: 1;
+  overflow-y: auto;
+  border-bottom: 2px solid #e1e1e1;
+  padding: 10px;
+}
+
+.send-message {
+  display: flex;
+  padding: 10px;
+  border-top: 2px solid #e1e1e1;
+  background: #fafafa;
+}
+
+.input-message {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 25px;
+  margin-right: 10px;
+}
+
+.send-button {
+  background: #007bff;
+  border-radius: 25px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.send-button:hover {
+  background: #0056b3;
+}
+
+ul {
+  padding: 0;
+  list-style: none;
+  margin: 0;
+}
+
+.member {
+  padding: 10px;
+  background: #e1e1e1;
+  border-radius: 5px;
+  margin: 5px 0;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.member.active {
+  background: #007bff;
+  color: #fff;
+}
+
+.member:hover {
+  background: #d1d1d1;
+}
+
+.avatar {
+  background-color: #007bff;
+  padding: 5px 10px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.avatar.self {
+  background-color: #28a745;
+  color: #fff;
+}
+
+.message {
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  margin: 5px 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.message-data {
+  margin-left: 15px; /* Increase space between username and message */
+  padding: 5px;
+}
+
+.message.self {
+  background: #e1ffe1;
+  justify-content: flex-end;
+}
