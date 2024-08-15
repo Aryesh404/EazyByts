@@ -23,7 +23,7 @@
 
 ### Prerequisites
 
-- **Java 11** or later ☕
+- **Java 11** or later 
 - **Node.js** and **npm** (for frontend dependencies) 🌐
 - **Maven** (for backend build) 📦
 
